@@ -45,6 +45,9 @@ Start the Streamlit app by running:
 ```bash
 streamlit run faq_chatbot_assignment_2.py
 ```
+```bash
+uvicorn api.py:app --host 127.0.0.1 --port 3000 --reload
+```
 
 ### 3. Upload the FAQ CSV File
 - The file should contain two columns: one for questions and one for answers.
